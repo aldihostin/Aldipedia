@@ -1,0 +1,416 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme-mode="default">
+
+<audio autoplay loop>
+  <source src="https://a.top4top.io/m_3045s0dix0.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldipedia - SMM Panel indonesia</title>
+    <meta content="ALDIPEDIA adalah sebuah website Smm panel penyedia layanan sosial media terlengkap, termurah, dan berkualitas." name="description" />
+    <meta content="Aldipedia - SMM Panel indonesia" name="author" />
+    <meta content="smm,smm panel,panel,social media marketing,smm indonesia,pusat smm panel indonesia,smm panel indonesia,Aldipediai" name="keywords" />
+    <!--- logo Aldipedia --->
+    <link rel="shortcut icon" href="https://f.top4top.io/p_3046gyq2b0.png">
+    <link href="https://medanpedia.co.id/assets/app/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://medanpedia.co.id/assets/app/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://medanpedia.co.id/assets/flickity.css" rel="stylesheet" type="text/css" />
+    <link href="https://medanpedia.co.id/assets/landing.css" rel="stylesheet" type="text/css" />
+<style>
+@import url(https://fonts.googleapis.com/css2?family=Work Sans:wght@400;500;600;700&amp;display=swap);
+  
+#additionalText_apaitusmm, #additionalText_gimanacaradaftarnya, #additionalText_gimanacarapesan, #additionalText_gimanacaradeposit {
+  height: 0; /* Awalnya tidak terlihat */
+  opacity: 0; /* Awalnya transparan */
+  transition: height 0.5s ease, opacity 0.5s ease; /* Efek transisi */
+  overflow: hidden; /* Menghilangkan teks yang melebihi batas */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+.show-text {
+  height: 500px; /* Atur tinggi saat teks muncul */
+  opacity: 1; /* Menjadi opak ketika ditampilkan */
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn:hover {
+  transform: scale(1.1) translateX(-5px);
+  background-color: #007bff; /* Tetapkan warna latar belakang yang sama */
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 14px;
+  }
+}
+
+.additional-info {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.additional-info.show {
+  opacity: 1;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: scale(1.05); /* Membuat tombol sedikit lebih besar */
+}
+
+.btn-custom:active {
+  transform: scale(0.95); /* Membuat tombol sedikit lebih kecil saat ditekan */
+}
+
+.paper-effect {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  text-align: center; /* Membuat konten di tengah */
+  max-width: 400px; /* Atur lebar maksimum elemen */
+  margin: 0 auto; /* Membuat elemen berada di tengah */
+  overflow: hidden; /* Menghilangkan teks yang melebihi batas */
+  transition: height 0.5s ease; /* Efek transisi */
+}
+
+.btn-custom {
+  background-color: var(--bs-primary);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  overflow: hidden; /* Menghindari teks yang keluar dari batas tombol */
+  white-space: nowrap; /* Mencegah teks panjang dibungkus ke baris baru */
+  text-overflow: ellipsis; /* Menambahkan elipsis jika teks terlalu panjang */
+  word-wrap: break-word; /* Memastikan kata-kata yang panjang bisa dibungkus */
+  text-align: center; /* Memastikan teks tetap terpusat di dalam tombol */
+}
+
+
+.btn-custom:hover {
+  background-color: var(--bs-primary-hover);
+  border-color: var(--bs-primary-hover);
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+:root {
+  --bs-primary: #007bff;
+  --bs-primary-rgb: 0, 123, 255;
+  --bs-primary-hover: #0056b3;
+  --bs-primary-hover-rgb: 0, 86, 179;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover,
+.btn-check:focus .btn-primary,
+.btn-primary:focus {
+  background-color: var(--bs-primary-hover);
+  border-color: var(--bs-primary-hover);
+}
+
+.btn-check:focus .btn-primary,
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 .15rem rgba(var(--bs-primary-rgb), .5);
+  box-shadow: 0 0 0 .15rem rgba(var(--bs-primary-rgb), .5);
+}
+
+.faq-icon i {
+  font-size: 80px;
+  position: absolute;
+  margin-top: -10px;
+  right: -20px;
+  opacity: .2;
+}
+
+.header {
+  background: url("https://medanpedia.co.id/assets/images/landing/bg-home.png"), var(--bs-primary-hover);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 70px 0 130px 0;
+}
+
+.img-head {
+  background: none;
+}
+</style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESTRHL6B5B" type="5eb13723ceb62d844bd9c5bf-text/javascript">
+    </script>
+    <script type="5eb13723ceb62d844bd9c5bf-text/javascript">
+window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-ESTRHL6B5B');
+    </script>
+  </head>
+
+  <body class="bg-white">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top px-2 py-3">
+      <div class="container">
+      <!--- link website Aldipedia ---->
+        <a class="navbar-brand fw-semibold" href="https://medanpedia.co.id">
+          <script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"6O3s8_ryXH29oaiFFj2FeM.KyBiduTJKtlThBM59FQM-1800-0.0.1.1"};
+//]]>
+          </script>
+          <script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+        </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="position-relative header">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md my-auto order-md-1 order-2">
+              <div class="mt-5 mt-md-0">
+                 <div style="text-align: center;">
+                <h5 class="text-white fw-normal">Aldipedia - SMM Panel indonesia</h5>
+                <h1 class="fw-semibold text-white mb-3">Social Media Marketing Panel Indonesia Terbaik</h1>
+                <p class="text-white fw-light">Aldipedia - SMM Panel indonesia adalah sebuah website penyedia layanan sosial media terlengkap, termurah, dan berkualitas.</p>
+                </div>
+                <div style="text-align: center;">
+                <!---- teks login bagian awal website Aldipedia ---->
+                <a href="https://aldipedia.socpanel.com/login" class="btn btn-primary bg-gradient btn-rounded px-4 ms-2">
+                  <i class=""></i>login</a>
+                  <!--- teks daftar bagian awal website Aldipedia --->
+                   <a href="https://aldipedia.socpanel.com/reg" class="btn btn-primary bg-gradient btn-rounded px-4 ms-2">
+                  <i class=""></i>daftar</a>
+                  <!---- teks restapi bagian awal website Aldipedia --->
+                 <a href="https://aldipedia.socpanel.com/developer" class="btn btn-primary bg-gradient btn-rounded px-4 ms-2">
+  <i class=""></i> Restapi
+</a>
+                  <br></br>
+                  <div style="text-align: center;">
+                  <!---- teks bot Telegram Aldipedia ---->
+                    <a href="https://t.me/Aldipedia_bot" class="btn btn-primary bg-gradient btn-rounded px-4 ms-2" style="margin-top: 5px;">
+                      <i class=""></i>Bot Telegram Aldipedia
+                      </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wave wave1">
+      </div>
+      <div class="wave wave2">
+      </div>
+      <div class="wave wave3">
+      </div>
+      <div class="wave wave4">
+      </div>
+    </section>
+    <section class="position-relative" style="margin-top: -100px; z-index: 10;">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4">
+              <div class="card border-0 shadow-lg card-1">
+                <div class="text-center p-3">
+                  <h3 class="fw-semibold text-primary">1.223</h3>
+                  <p class="m-0">Pengguna Aktif</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="card border-0 shadow-lg card-2">
+                <div class="card-body text-center p-3">
+                  <h3 class="fw-semibold text-primary">1.567</h3>
+                  <p class="m-0">Pesanan Dikerjakan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="card border-0 shadow-lg card-3">
+                <div class="card-body text-center p-3">
+                  <h3 class="fw-semibold text-primary">2.133 </h3>
+                  <p class="m-0">Layanan Tersedia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+ <section class="position-relative py-5">
+  <div class="container-fluid mb-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-9 align-self-center">
+        <!---- gambar YouTube ---->
+          <img class="w-100 mb-5 mb-md-0" alt="img about" style="display:none;visibility:hidden;" data-cfsrc="https://medanpedia.co.id/storage/assets/915526349a3588f6d177d219cf8ccde5.png" data-cfstyle="max-width: 300px !important; max-height: 300px !important;">
+          <noscript>
+            <img src="https://medanpedia.co.id/storage/assets/915526349a3588f6d177d219cf8ccde5.png" class="w-100 mb-5 mb-md-0" alt="img about" style="max-width: 300px !important; max-height: 300px !important;">
+          </noscript>
+        </div>
+        <div class="offset-lg-1 col-md align-self-center">
+          <div style="text-align: center;">
+            <h2 class="fw-semibold text-dark">Aldipedia - SMM Panel indonesia</h2>
+            <p class="mb-3 fw-light">
+              <p>
+                <strong>ALDIPEDIA </strong>adalah sebuah platform SMM Panel, bisnis yang menyediakan berbagai layanan social media marketing yang bergerak terutama di Indonesia. Dengan bergabung bersama kami, Anda dapat menjadi penyedia jasa social media atau reseller social media seperti
+                <strong>jasa penambah Followers, Likes, dll</strong>. Saat ini tersedia berbagai layanan untuk social media terpopuler seperti
+                <strong>Tiktok</strong>,
+                <strong>Telegram</strong>,                
+                <strong>Instagram</strong>,
+                <strong>Facebook</strong>,
+                <strong>Twitter</strong>,
+                <strong>Youtube</strong>,
+                <strong>dll</strong>.</p>
+            </p>
+            <div style="text-align: center;">
+            <!---- tombol my order ----->
+              <a class="btn btn-primary bg-gradient rounded-pill px-3" href="https://aldipedia.socpanel.com/orders/all">
+                <i class=""></i>My order
+              </a>
+              <!---- tombol buat pesanan --->
+              <a class="btn btn-primary bg-gradient rounded-pill px-3" href="https://aldipedia.socpanel.com/order">
+                <i class=""></i>Buat pesanan
+              </a>
+              <!------ tombol layanan ----->
+              <a class="btn btn-primary bg-gradient rounded-pill px-3" href="https://aldipedia.socpanel.com/services">
+                <i class=""></i>Layanan
+              </a>
+              <br>
+              <!---- tombol support Aldipedia ----->
+              <a class="btn btn-primary bg-gradient rounded-pill px-3" href="https://aldipedia.socpanel.com/support/dialog" style="margin-top: 10px;">
+                <i class=""></i>support Aldipedia
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!---- contoh pengisian --->
+ <div class="offset-lg-1 col-md align-self-center">
+          <div style="text-align: center;">
+            <h2 class="fw-semibold text-dark">Pertanyaan umum</h2>
+</div>
+</div>
+<br>
+<div class="paper-effect">
+    <!------ kode button instagram----->
+  <button class="btn-custom" onclick="toggleText('apaitusmm')">apa itu smm?</button>
+  <p class="m-0 fw-light" id="additionalText_apaitusmm">adalah singkatan dari "Social Media Marketing panel". Ini adalah platform yang digunakan untuk membeli layanan media sosial seperti likes, views, followers dan comments untuk akun media sosial Anda. Ini menyediakan berbagai layanan yang dapat membantu meningkatkan engagement Anda di platform media sosial seperti Instagram, Facebook, Twitter, YouTube, dan lainnya.</p>
+  <button class="btn-custom" onclick="toggleText('gimanacaradaftarnya')">gimana cara daftarnya?</button>
+  <p class="m-0 fw-light" id="additionalText_gimanacaradaftarnya">Kamu bisa mendaftar secara gratis pada halaman registrasi. isi data - data yang dibutuhkan untuk masuk ke halaman pemesanan Pusat Panel SMM, Karena di sini smm panel yang sangat mudah digunakan.</p>
+  <button class="btn-custom" onclick="toggleText('gimanacarapesan')">gimana cara pesannya ?</button>
+  <p class="m-0 fw-light" id="additionalText_gimanacarapesan">sangatlah gampang, Kamu cuma butuh masuk terlebih dulu ke akun Kamu serta mengarah laman pesanan dengan mengklik menu yang telah tersedia.</p>
+  <button class="btn-custom" onclick="toggleText('gimanacaradeposit')">gimana cara depositnya ?</button>
+  <p class="m-0 fw-light" id="additionalText_gimanacaradeposit"> pilih metode deposit, pilih sistem konfirmasi (Otomatis/Manual), isi nominal deposit, klik submit. Lakukan pembayaran. Kami sediakan deposit otomatis lewat bank dan ewallet serta kamu bisa pula deposit ataupun isi saldo secara manual dengan metode menghubungi no whatsapp admin.</p>
+</section>
+
+<script>
+function toggleText(service) {
+  var additionalText = document.getElementById("additionalText_" + service);
+  var button = document.querySelector(".btn-custom." + service);
+  
+  if (additionalText.classList.contains("show-text")) {
+    additionalText.classList.remove("show-text");
+    setTimeout(() => {
+      additionalText.style.height = "0"; // Mengatur tinggi menjadi 0
+      additionalText.style.opacity = "0"; // Mengatur opacity menjadi 0
+    }, 10); // Menunggu selesai transisi sebelum menyembunyikan teks
+    button.innerHTML = service.charAt(0).toUpperCase() + service.slice(1); // Mengubah teks tombol kembali
+  } else {
+    additionalText.classList.add("show-text");
+    additionalText.style.height = "250px"; // Mengatur tinggi saat teks muncul
+    additionalText.style.opacity = "1"; // Mengatur opacity menjadi 1 saat teks muncul
+    button.innerHTML = "Sembunyikan Layanan";
+  }
+}
+</script>
+    <footer class="position-relative mt-5 py-4 text-white bg-dark">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="d-flex flex-wrap justify-content-between align-items-center">
+            <div class="col-md-6">
+              <p class="m-0">&copy; 2024 Aldipedia - SMM Panel indonesia</p>
+            </div>
+            <ul class="nav col-md-6 justify-content-md-end justify-content-start">
+              <li class="nav-item">
+                <a href="https://wa.me/+6281268004189" class="nav-link px-2 text-muted">Kontak</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link px-2 text-muted">Ketentuan Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link px-2 text-muted">Pertanyaan Umum</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://aldipedia.socpanel.com/child/landing" class="nav-link px-2 text-muted">SEWA SMM</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://medanpedia.co.id/assets/app/libs/jquery/jquery.min.js" type="5eb13723ceb62d844bd9c5bf-text/javascript"></script>
+    <script src="https://medanpedia.co.id/assets/app/libs/bootstrap/js/bootstrap.bundle.min.js" type="5eb13723ceb62d844bd9c5bf-text/javascript"></script>
+    <script src="https://medanpedia.co.id/assets/flickity.pkgd.min.js" type="5eb13723ceb62d844bd9c5bf-text/javascript"></script>
+    <script type="5eb13723ceb62d844bd9c5bf-text/javascript">
+
+          function penuliskode_modal(title, target, size = 'modal-lg') {
+              $('#penuliskode-modal #modal-dialog').removeClass()
+              $('#penuliskode-modal #modal-dialog').addClass('modal-dialog '   size)
+              $('#penuliskode-modal').modal('hide');
+              $('#penuliskode-modal-title').html(title);
+              $('#penuliskode-modal-btn-refresh').attr('onclick', 'penuliskode_modal(`'   title   '`, `'   target   '`)')
+              $.get(target, function(result) {
+                  $('#penuliskode-modal-body').html(result);
+                  $('#penuliskode-modal').modal('show');
+              }).fail(function(e) {
+                  // alert("Something went wrong.");
+              });
+          }
+    </script>
+    <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5eb13723ceb62d844bd9c5bf-|49" defer></script>
+  </body>
+
+</html>		
